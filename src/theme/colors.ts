@@ -1,0 +1,33 @@
+export const colors = {
+  brand: {
+    primary: "#E8490F",
+    primaryHover: "#c93d0c",
+    primarySoft: "#fff5f2",
+    secondary: "#0D1B3E",
+    secondaryHover: "#162b5e",
+  },
+  status: {
+    success: "#16a34a",
+    successSoft: "#dcfce7",
+    successText: "#15803d",
+    warning: "#f59e0b",
+    warningSoft: "#fffbeb",
+    warningText: "#92400e",
+    error: "#dc2626",
+    errorSoft: "#fee2e2",
+    errorText: "#b91c1c",
+    info: "#2563eb",
+    infoSoft: "#dbeafe",
+    infoText: "#1d4ed8",
+  },
+  neutral: {
+    text: "#1a1a2e",
+    textMuted: "#6b7280",
+    textSubtle: "#9ca3af",
+    border: "#e5e7eb",
+    borderSoft: "#f0f0f0",
+    bg: "#ffffff",
+    bgMuted: "#f9fafb",
+    bgSubtle: "#fafafa",
+  },
+} as const;
